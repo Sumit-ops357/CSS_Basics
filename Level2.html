@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background color</title>
+    <style>
+        /* Universal selector such that no vacant spaces should be there */
+        *{
+           margin: 0%;
+           padding: 0%;
+        }
+        .back_color{
+            color: black;
+            background-color: bisque;
+        }
+        .box{ height: 70px; width: 70px;}
+        #box1{ background-color: rgb(16, 104, 228);}
+        #box2{background-color: green;}
+        #box3{background-color: crimson;}
+
+        .image{ height: 60px; width: 60px;
+                
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR40_ScLt9hnhBQCCbvcRK-herzD2IWTvKJzQ&s);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: top;}
+    </style>
+</head>
+<body>
+    <div class="back_color">Mahabharat Krishna and Arjuna story</div>
+
+    <!-- Height and width property -->
+
+    <div class="box" id="box1">Box 1</div> <br>
+    <div class="box" id="box2">Box 2</div>  <br>
+    <div class="box" id="box3">Box 3</div>  <br>
+
+    <!-- Background image property -->
+
+    <div class="image"></div>  <br>
+
+    
+</body>
+</html>
